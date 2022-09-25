@@ -7,13 +7,15 @@
     scroll-behavior: smooth;
 }
 
-body{
+body
+{
     min-height: 100vh;
-    background: linear-gradient(#2b1055,#7597de);
+    background: linear-gradient(#2b1055,#120316);
     overflow-x: hidden;
 }
 
-header{
+header
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -25,7 +27,8 @@ header{
     z-index: 10000;
 }
 
-header .logo{
+header .logo
+{
     color: #fff;
     font-weight: 700;
     text-decoration: none;
@@ -34,19 +37,22 @@ header .logo{
     letter-spacing: 2px;
 }
 
-header > ul{
+header > ul
+{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-header ul li{
+header ul li
+{
     list-style: none;
     margin-left: 20px;
 }
 
-header ul li a{
+header ul li a
+{
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
@@ -60,7 +66,8 @@ header ul li a.active
     color: #2b1055;
 }
 
-section{
+section
+{
     position:relative;
     width:100%;
     height: 100vh;
@@ -71,7 +78,8 @@ section{
     overflow: hidden;
 }
 
-section::before{
+section::before
+{
     content:'';
     position: absolute;
     bottom: 0;
@@ -81,7 +89,8 @@ section::before{
     z-index: 1000;
 }
 
-section img{
+section img
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -91,15 +100,18 @@ section img{
     pointer-events: none;
 }
 
-section img#moon{
+section img#moon
+{
     mix-blend-mode: screen;
 }
 
-section img#mountains_front{
+section img#mountains_front
+{
     z-index: 10;
 }
 
-#text{
+#text
+{
     position: absolute;
     right: -350px;
     color: #fff;
@@ -108,7 +120,8 @@ section img#mountains_front{
     z-index: 9;
 }
 
-#btn{
+#btn
+{
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -120,30 +133,59 @@ section img#mountains_front{
     transform: translateY(100px)
 }
 
-.sec{
+.sec
+{
     position: relative;
     padding: 100px;
     background: #1c0522;;
 }
 
-.sec h2{
+.sec h2
+{
     font-size: 3.5em;
     margin-bottom:10px;
     color: #fff;
 }
 
-.sec p{
+.sec p
+{
     font-size: 1.2em;
     color: #fff;
 }
 
-#audio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+hr
+{
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to left,transparent,#ffffff83,transparent);
 }
 
-.sec audio{
-    width:65%;
-    height: 8vw;
+footer
+{
+    background-color: #120316;
+    margin: 40px 500px 40px 500px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container > p
+{
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+
+.github
+{
+    margin-left: 20px;
+}
+
+.linkedin
+{
+    margin-left: 20px;
 }
